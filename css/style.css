@@ -43,7 +43,7 @@ nav li a {
     margin-top: 0;
     padding: 60px;
     text-align: center;
-    color: gold;
+    color: #daa520;
     font-family: 'Noto Serif', serif;
 }
 
@@ -274,4 +274,47 @@ section.parallax h1 {
     font-size: 78px;
     z-index: 50;
     text-transform: uppercase;
+}
+
+#personagens{
+    font-family: 'Noto Serif', serif;  
+    display: flex;
+     justify-content: center; 
+}
+
+#personagens ul li{
+    list-style: none;   
+    display: inline-block; 
+}
+
+#personagens ul li a{
+    text-decoration: none;
+    color: #daa520;
+    border: 2px solid #daa520;
+    border-radius: 90px;
+    padding: 5px; 
+    margin: 20px;  
+}
+
+#personagens li a:hover{
+    background-color: #daa520;
+    color: #fff;
+}
+
+#personagens h1{
+    color: #daa520;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: 200px;
+    gap: 10px;
+    margin-left: 40px;
+}
+
+.grid img{
+    border: 5px solid #daa520;
+    border-radius: 30px;
+    height: 100%;   
 }
