@@ -57,7 +57,14 @@ nav ul li a {
 
 }
 
-#home div{
+#home  div img{
+    width: 20%;
+    align-items: center;
+    margin-left: 40%;
+    
+}
+
+/* #home div{
     margin-top: 50px;
     display: flex;
     flex-direction: row;
@@ -69,7 +76,7 @@ nav ul li a {
     padding-left: 40px;
     padding-bottom: 50px;
 
-}
+} */
 
 #plataformas {
 
@@ -80,11 +87,11 @@ nav ul li a {
 }
 
 #plataformas h1 {
-    margin-top: 0;
-    padding: 30px;
+    /* margin-top: 0; */
+    /* padding: 30px; */
     font-family: 'Noto Serif', serif;
     color: #bbb5a8;
-    font-size: 20px;
+    font-size: 30px;
 
 }
 
@@ -336,7 +343,7 @@ section.parallax h1 {
 
 .grid {
     display: grid;
-    grid-template-columns: repeat(8, 1fr);
+    grid-template-columns: repeat(12, 1fr);
     grid-template-rows: 200px;
     gap: 10px;
     margin-left: 5px;
